@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Руформ</title>
+
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./accordion.min.css">
+
+    <script defer src="./script.js"></script>
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+
+    <script>
+      $( function() {
+    $( "#accordion" ).accordion();
+     } );
+    </script>
+
+
+</head>
+
+<body>
+    <header>
+        <div class="header-container">
+            <div class="container">
+                <div class="header">
+                    <div class="header-first">
+                        <a href="#" class="logo">
+                            <img aria-label="Логотип" src="./images/logo.jpg" alt="">
+                        </a>
+                        <div class="header-contacts">
+                            <img class="image-clock" src="./images/clock.png" alt="">
+                            <div class="header-contacts-time">
+                                <a class="header-text-email" href="mailto:info@neopren.com.ru"
+                                    class="header-contacts-email">info@neopren.com.ru</a>
+                                <div class="header-contacts-time-email">
+                                    <div>
+                                        <div class="header-text">ПН-ЧТ</div>
+                                        <div class="header-text time-center">ПТ</div>
+                                    </div>
+                                    <div>
+                                        <span class="header-text">8.00 - 18.00</span>
+                                        <span class="header-text">8.00 - 17.00</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <img class="image-phone" src="./images/phone.png" alt="">
+                            <div class="header-contacts-time">
+                                <a class="header-text phone-number" href="tel:+78007078985">8 (800) <span
+                                        class="phone-blue">707-89-85</span></a>
+                                <span class="header-text-phone">Бесплатно по России</span>
+                            </div>
+                            <div class="header-contacts">
+                                <div class="header-calculation">
+                                    <button aria-label="Заявка на рассчет" class="header-btn">ЗАЯВКА НА РАСЧЕТ</button>
+                                    <span>Расчет - бесплатно!</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="nav-container">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-list-item"><a href="#">О компании</a></li>
+                    <li class="nav-list-item"><a href="#">Продукция</a></li>
+                    <li class="nav-list-item"><a href="#">Документация</a></li>
+                    <li class="nav-list-item"><a href="#">Доставка</a></li>
+                    <li class="nav-list-item"><a href="#">Контакты</a></li>
+                </ul>
+            </nav>
+            <div>
+            <form action="" method="post" class="nav-search">
+                <input class="nav-search-input" type="text" placeholder="Что ищем?">
+                <button aria-label="" class="search"></button>
+            </form>
+            </div>
+            </div>
+        </div>
+        </div>
+    </header>
+    <main>
+        <div class="row">
+            <span>Главная</span>
+        </div>
+        <section>
+            <div class="main-description">
+                <div class="main-description-content">
+                    <h1 class="text-h-one">Производство</h1>
+                    <p class="text-description-content">пористой резины и уплотнителей</p>
+                    <p class="text-small-description-content">Строительство зданий и сооружений, судостроение, самолето
+                        строение, авто и приборостроение и прочее</p>
+                    <button class="btn-description-content">Узнать подробнее</button>
+                </div>
+                <div class="main-description-content-background">
+                    <img class="main-descriptio-background" src="./images/Rectangle.png" alt="">
+                    <img class="main-descriptio-frame" src="./images/Frame.png" alt="">
+                    <img class="main-descriptio-foto-one" src="./images/Rectangle1.png" alt="">
+                    <img class="main-descriptio-foto-two" src="./images/Rectangle2.png" alt="">
+                    <img class="main-descriptio-point" src="./images/point.png" alt="">
+                </div>
+
+
+            </div>
+
+        </section>
+
+        <section>
+            <div class="main-container our-advanteges">
+                <div class="our-advanteges-first-column">
+                    <h2 class="text-h-two">Наши преимущества</h2>
+                    <p class="our-advanteges-text">Мы российский производитель пористой резины и изделий из нее.
+                        Осуществляем полный цикл производства: начиная от выпечки блока и заканчивая изготовлением
+                        готового изделия, от консультации специалистов и технологов до доставки готовой продукции до
+                        клиента.
+                    </p>
+                    <div class="advanteges-list">
+                        <img class="advanteges-icon-map" src="./icons/map.svg" alt="">
+                        <div class="advanteges-block-content">
+                            <p class="advanteges-caption">СДЕЛАНО В РОССИИ</p>
+                            <p class="advanteges-text advanteges-text-first">Собственные производственные площади, осуществляем полный цикл
+                                производства.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="advanteges-list">
+                        <img class="advanteges-icon-rating" src="./icons/rating.svg" alt="">
+                        <div class="advanteges-block-content">
+                            <p class="advanteges-caption">БОЛЕЕ 3000 КЛИЕНТОВ</p>
+                            <p class="advanteges-text">География наших клиентов обширна: от Калининграда до
+                                Владивостока, а также страны Прибалтики, Казахстана и Белоруссии.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="advanteges-list">
+                        <img class="advanteges-icon-policy" src="./icons/policy.svg" alt="">
+                        <div class="advanteges-block-content">
+                            <p class="advanteges-caption">ПРОДУКЦИЯ СЕРТИФИЦИРОВАНА</p>
+                            <p class="advanteges-text">Изделия сертифицированы и соответствуют ТУ</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <img src="./images/rubber1.jpg" alt="">
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="main-container">
+                <h2 class="text-h-two center">Пористые резины</h2>
+                <ul class="rubber-list">
+                    <li class="rubber-list-item"><img class="rubber-list-img" src="./images/rubber2.jpg" alt="">
+                        <p class="rubber-name">Листовая резина EPDM 150</p>
+                        <div class="rubber-tick">
+                            <img class="tick" src="./icons/tick.svg" alt="">
+                            <img class="tick" src="./icons/tick.svg" alt="">
+                            <img class="tick" src="./icons/tick.svg" alt="">
+                        </div>
+                        <div class="rubber-description">
+                            <p class="rubber-price">от 4111 руб.</p>
+                            <button class="rubber-btn">Сделать расчет</button>
+                        </div>
+                       
+                    </li>
+                    <li class="rubber-list-item"><img class="rubber-list-img" src="./images/rubber2.jpg" alt="">
+                        <p class="rubber-name">Листовая резина EPDM 150</p>
+                        <div>
+                            <img class="tick" src="./icons/tick.svg" alt="">
+                            <img class="tick" src="./icons/tick.svg" alt="">
+                            <img class="tick" src="./icons/tick.svg" alt="">
+                        </div>
+                        <div class="rubber-description">
+                            <p class="rubber-price">от 1383 руб.</p>
+                            <button class="rubber-btn">Сделать расчет</button>
+                        </div>
+                       
+                    </li>
+                    <li class="rubber-list-item"><img class="rubber-list-img" src="./images/rubber2.jpg" alt="">
+                        <p class="rubber-name">Листовая резина EPDM 150</p>
+                        <div>
+                            <img class="tick" src="./icons/tick.svg" alt="">
+                            <img class="tick" src="./icons/tick.svg" alt="">
+                            <img class="tick" src="./icons/tick.svg" alt="">
+                        </div>
+                        <div class="rubber-description">
+                            <p class="rubber-price">от 4111 руб.</p>
+                            <button class="rubber-btn">Сделать расчет</button>
+                        </div>
+                       
+                    </li>
+                    <li class="rubber-list-item"><img class="rubber-list-img" src="./images/rubber2.jpg" alt="">
+                        <p class="rubber-name">Листовая резина EPDM 150</p>
+                        <div>
+                            <img class="tick" src="./icons/tick.svg" alt="">
+                            <img class="tick" src="./icons/tick.svg" alt="">
+                            <img class="tick" src="./icons/tick.svg" alt="">
+                        </div>
+                        <div class="rubber-description">
+                            <p class="rubber-price">от 3215 руб.</p>
+                            <button class="rubber-btn">Сделать расчет</button>
+                        </div>
+                       
+                    </li>
+                    <li class="rubber-list-item"><img class="rubber-list-img" src="./images/rubber2.jpg" alt="">
+                        <p class="rubber-name">Листовая резина EPDM 150</p>
+                        <div>
+                            <img class="tick" src="./icons/tick.svg" alt="">
+                            <img class="tick" src="./icons/tick.svg" alt="">
+                            <img class="tick" src="./icons/tick.svg" alt="">
+                        </div>
+                        <div class="rubber-description rubber-description-card">
+                            <p class="rubber-price">от 734 руб.</p>
+                            <button class="rubber-btn">Сделать расчет</button>
+                        </div>
+                       
+                    </li>
+                    <li class="rubber-list-item"><img class="rubber-list-img" src="./images/rubber2.jpg" alt="">
+                        <p class="rubber-name">Листовая резина EPDM 150</p>
+                        <div>
+                            <img class="tick" src="./icons/tick.svg" alt="">
+                            <img class="tick" src="./icons/tick.svg" alt="">
+                            <img class="tick" src="./icons/tick.svg" alt="">
+                        </div>
+                        <div class="rubber-description rubber-description-card">
+                            <p class="rubber-price">от 2365 руб.</p>
+                            <button class="rubber-btn">Сделать расчет</button>
+                        </div>
+                       
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <div class="main-container">
+                <h2 class="text-h-two rubber-about-top">Производство пористой резины из каучука</h2>
+                <div class="rubber-about">
+                    <div class="rubber-about-column-one">
+                        <p class="rubber-text-about">Суть данного процесса в пластикации каучука и добавлении в него всех ингредиентов входящих в рецепт. Исключение составляют лишь порообразователи. Эти вещества вводятся в общую массу компонентов в последнюю очередь.</p>
+                        <p class="rubber-text-about">Как правило, полученная смесь состоит из каучука на 80%. Пластичность этого компонента определяет качество пористой резины. Обычно производители стараются использовать натуральный каучук, поскольку если его заменить синтетическими каучуками, например, сополимерами бутодиена на основе нитрила акриловой кислоты или полимерами бутодиена дают в итоге низко прочные вулканизаторы. Чтоб этого не произошло в синтетические каучуки добавляется технический углерод.</p>
+                        <p class="rubber-text-about">Порообразователи – это вещества, которые разлагаются при более низкой температуре, чем температура вулканизации и выделяют газы. Тип пористой резины зависит от типа порообразователя, а так же от количества парообразующих органических или неорганических веществ которое может составлять от 2 до 30%.</p>
+                        <p class="rubber-text-about">В смесь ингредиентов порообразующие вещества добавляют при температуре 40-60 °С.</p>
+                        <p class="rubber-text-about">После того, как порообразующие вещества добавлены, приступают к обработке полученной смеси на шприц машине или на коландре. Происходит это при более низком температурном режиме.</p>
+                        <p class="rubber-text-about">Вулканизация проводится в условиях как постоянной, так и меняющихся температур. Высота температурного режима, а так же время процесса вулканизации зависит от толщины изделия, состава пористой резины, ускорителей и типа порообразующего вещества.</p>
+                        <p class="rubber-text-about">Современные технологии позволяющие варьировать химический состав смеси, пластичность каучука и вулканизации, дают возможность получать пористую резину с различными характеристиками. Она может быть мягкой и твердой, с различным диаметром пор и пр.</p>
+                        <p class="rubber-text-about">Вулканизация пены происходит в специальных формах, а после промывки пористую резину сушат и подвергают обработке.</p>
+                      <h3 class="text-h-three">Пористую резину используют в изготовлении деталей служащих:</h3>
+                      <ul>
+                        <li>— уплотнителями защищающими соединения от пыли</li>
+                        <li>— амортизаторами при ударе</li>
+                        <li>— для компенсации зазора</li>
+                        <li>— гидровиброшумоизоляции</li>
+                      </ul>
+                      <h3 class="text-h-three">Пористая резина используется:</h3>
+                      <ul>
+                        <li>— При сборке в качестве уплотняющего материала</li>
+                        <li>— В машиностроении и приборостроении, самолетостроении, как амортизирующий и виброизолирующий материал</li>
+                        <li>— В качестве звукоизоляции на металлических листах и каркасах</li>
+                        <li>— В упаковочной таре как противоударная прокладка</li>
+                        <li>— В изготовлении спинок для сидений</li>
+                        <li>— В производстве бытовой техники, как электроизоляционный материал</li>
+                        <li>— В производстве топливных баков</li>
+                      </ul>
+                    </div>
+                    <div class="rubber-about-column-two">
+                        <img class="rubber-about-img" src="./images/Maskgroup.jpg" alt="">
+                        <img src="./images/rubberAboutTwo.png" alt="">
+                    </div>
+                </div>
+
+
+            </div>
+
+        </section>
+        <section>
+            <div class="main-container container-questions">
+                <h2 class="text-h-two center-questions">Вопросы и ответы</h2>
+                <ul id="accordion" class="accordion questions-list">
+                    <li>
+                        <div class="questions-icon">
+                        <h3 class="text-h-three questions-list-item">Доставка в Республику Беларусь</h3>
+                        <img class="questions-icon" src="./icons/mark.svg" alt="">
+                        </div>
+                        <div class="questions">
+                            <p class="questions-text">Доставка до транспортной компании GTD - 800р. или самовывоз со склада.
+                            </p>
+                            <p class="questions-text">Доставка до любой удобной транспортной компании в Москве (в пределах МКАД) - 1300р.
+                                
+                            </p>
+                            <p class="questions-text">Стоимость перевозки из Москвы оплачивает Получатель согласно тарифам транспортной компании.
+                            </p>
+                        </div>
+                        <div class="line"></div>
+                    </li>
+                    <li class="">
+                        <div class="questions-icon">
+                        <h3 class="text-h-three questions-list-item questions-header">Как можно оплатить?</h3>
+                        <img class="questions-icon" src="./icons/mark.svg" alt="">
+                        </div>
+                        <div class="questions">
+                            <p class="questions-text">Скоро здесь будет информация
+                            </p>
+                        </div>
+                        <div class="line"></div>
+                    </li>
+                    <li>
+                        <h3 class="text-h-three"></h3>
+                       
+                        <div>
+                            <p>Скоро здесь будет информация</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="questions-icon">
+                        <h3 class="text-h-three questions-list-item questions-header">Правила и условия доставки?</h3>
+                        <img class="questions-icon" src="./icons/mark.svg" alt="">
+                        </div>
+                        <div class="questions">
+                            <p class="questions-text">Скоро здесь будет информация
+                            </p>
+                        </div>
+                        <div class="line"></div>
+                    </li>
+                    <li>
+                        <h3 class="text-h-three"></h3>
+                       
+                        <div>
+                            <p>Скоро здесь будет информация</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="questions-icon">
+                        <h3 class="text-h-three questions-list-item questions-header">Делается ли индивидуальное изготовление?</h3>
+                        <img class="questions-icon" src="./icons/mark.svg" alt="">
+                        </div>
+                        <div class="questions">
+                            <p class="questions-text">Скоро здесь будет информация
+                            </p>
+                        </div>
+                        <div class="line"></div>
+                    </li>
+                    <li>
+                        <div class="questions-icon">
+                        <h3 class="text-h-three questions-list-item questions-header">Где находится мой заказ?</h3>
+                        <img class="questions-icon" src="./icons/mark.svg" alt="">
+                        </div>
+                        <div class="questions">
+                            <p class="questions-text">Скоро здесь будет информация
+                            </p>
+                        </div>
+                        <div class="line"></div>
+                    </li>
+                    <li>
+                        <h3 class="text-h-three"></h3>
+                       
+                        <div>
+                            <p>Скоро здесь будет информация</p>
+                        </div>
+                    </li>
+   
+                    <li>
+                        <div class="questions-icon">
+                        <h3 class="text-h-three questions-list-item questions-header">Какие сроки доставки?</h3>
+                        <img class="questions-icon" src="./icons/mark.svg" alt="">
+                        </div>
+                        <div class="questions">
+                            <p class="questions-text">Скоро здесь будет информация
+                            </p>
+                        </div>
+                        <div class="line"></div>
+                    </li>
+                    <li>
+                        <h3 class="text-h-three"></h3>
+                       
+                        <div>
+                            <p>Скоро здесь будет информация</p>
+                        </div>
+                    </li>
+              
+
+
+                </ul>
+            </div>
+        </section>
+        <section class="main-container">
+            <div class="about">
+                <div class="about-img">
+                    <img src="./images/factory.png" alt="">
+                </div>
+                <div class="about-company">
+                    <h2 class="text-h-two ">О компании</h2>
+                    <div class="text-about">
+                    <p class="text-about-us">Располагаем собственными производственными площадями. Станочный парк предприятия насчитывает более 15 единиц оборудования.
+                    </p>
+                    <p class="text-about-us">Сроки изготовления зависят от сложности поставленной задачи, на стандартные рецепты срок изготовления составляет не более 2-5 рабочих дней.
+                    </p>
+                    <p class="text-about-us">Методом проб и ошибок, совместно с нашими клиентами, мы расширяем технические возможности нашего производства, что позволяет нам улучшать качество продукции и реализовывать новые интересные задачи.
+                    </p>
+                </div>
+                    <button class="btn-about ">Оставить заявку</button>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="main-container">
+                <h2 class="text-h-two reviews-container">Отзывы</h2>
+                <div class="slider">
+
+                    <div class="slider-inner">
+                        <div class="slider-slides">
+                            <div class="slider-reviews">
+                                <p class="slider-reviews-text">Очень доволен качеством продукции. Давно искал качественного производителя пористой резины и наконец-то нашел!</p>
+                                <img class="slider-reviews-img" src="/images/foro.jpg" alt="">
+                                <h4 class="text-h-four">Андрей Попов</h4>
+                            </div>
+                            <div class="slider-reviews">
+                                <p class="slider-reviews-text">Очень доволен качеством продукции. Давно искал качественного производителя пористой резины и наконец-то нашел!</p>
+                                <img class="slider-reviews-img" src="/images/foro.jpg" alt="">
+                                <h4 class="text-h-four">Александр Венедиктов</h4>
+                            </div>
+                            <div class="slider-reviews">
+                                <p class="slider-reviews-text">Очень доволен качеством продукции. Давно искал качественного производителя пористой резины и наконец-то нашел!</p>
+                                <img class="slider-reviews-img" src="/images/foro.jpg" alt="">
+                                <h4 class="text-h-four">Николай Тарасов</h4>
+                            </div>
+                            <div class="slider-reviews">
+                                <p class="slider-reviews-text">Очень доволен качеством продукции. Давно искал качественного производителя пористой резины и наконец-то нашел!</p>
+                                <img class="slider-reviews-img" src="/images/foro.jpg" alt="">
+                                <h4 class="text-h-four">Андрей Попов</h4>
+                            </div>
+                            <div class="slider-reviews">
+                                <p class="slider-reviews-text">Очень доволен качеством продукции. Давно искал качественного производителя пористой резины и наконец-то нашел!</p>
+                                <img class="slider-reviews-img" src="/images/foro.jpg" alt="">
+                                <h4 class="text-h-four">Андрей Попов</h4>
+                            </div>
+                        </div>
+                </div>
+                <input type="radio" id="btn-1" name="toggle">
+                <input type="radio" id="btn-2" name="toggle" checked>
+                <input type="radio" id="btn-3" name="toggle">
+                <input type="radio" id="btn-4" name="toggle">
+                <div class="slider-controls">
+                    <label for="btn-1"></label>
+                    <label for="btn-2"></label>
+                    <label for="btn-3"></label>
+                    <label for="btn-4"></label>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+
+    </footer>
+
+</body>
+
+</html>
